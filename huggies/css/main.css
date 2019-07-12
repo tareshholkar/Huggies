@@ -1,0 +1,141 @@
+.container{
+    border: 2px solid black;
+}
+
+/* header>.top > .col-2 > select{
+    margin-left: 170px;
+}
+
+header>.top > .col-2 > a{
+    margin-left: 70px;
+}
+
+header>.top > .col-2 > button{
+    margin-left: 70px;
+    border-radius: 30px;
+    width: 25%;
+} */
+
+/* --------------------------------- Header > Top Start --------------------------------- */
+
+header > .top > .col-md-2 {        
+    text-align: center;        
+}
+
+/* header > .top > .col-md-5 > img{
+    margin-left: 15%;
+} */
+
+header >.top > .col-md-2 > select{
+    margin-left: 74px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666666;
+    font-family: "Omnes Medium";
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    margin-top: 10px;
+}
+
+header >.top > .col-md-2 > a{
+    font-size: 15px;
+    line-height: 35px;
+    color: #666666;
+    font-family: "Omnes Medium";
+    font-weight: 500;
+    text-align: center;
+    margin-left: 57%;
+}
+
+header >.top > .col-md-3 > button{    
+    border-radius: 30px;
+    width: 79%;
+    font-size: 15px;
+    line-height: 15px;
+    color: #ffffff;
+    font-family: "Omnes";
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 25%;
+    background-color: #d92032;
+}
+/* --------------------------------- Header > Top End --------------------------------- */
+/* --------------------------------- Header > Bottom Start --------------------------------- */
+header >.bottom{
+    background-image: linear-gradient(white,#f4f4f2);
+} 
+
+header >.bottom > .col-2 > img{
+    margin-left: 47%;
+}
+
+header >.bottom > .col-md-10 >.nav {    
+    margin-top: 5%;
+    margin-left: 100px;
+}
+
+header >.bottom > .col-md-10 > ul  {        
+    margin-left: 3px;
+    margin-top: 5%;
+}
+
+header >.bottom > .col-md-10 > ul > i {    
+    margin-top: 16px;
+}
+
+header >.bottom > .col-md-10 > ul > li{
+    margin-left: 38px;
+    list-style-type: none;
+
+}
+
+header >.bottom > .col-md-10 > ul > li >a{    
+    font-size: 22px;
+    color: #d92032;    
+    font-weight: 500;
+    text-align: right;
+    text-decoration: none;
+   
+}
+
+/* --------------------------------- Header > Bottom End --------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------- Media Queries Start --------------------------------- */
+
+/* ------------  For Mobile View ------------ */
+@media only screen and (max-width:768px) {    
+    
+}/* xs */ 
+
+/* ------------  For Tablet View ------------ */
+@media only screen and (min-width:768px) {    
+    
+    .navbar-nav {
+        float: none;
+        margin: 0;
+    }
+    
+}/* sm */
+
+/* ------------  For Small Laptops ------------ */
+@media only screen and (min-width:992px) {    
+    
+}/* md */
+
+/* ------------  For Small Laptops ------------ */
+@media only screen and (min-width:1200px) {    
+    
+}/* lg */ 
