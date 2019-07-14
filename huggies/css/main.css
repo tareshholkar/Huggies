@@ -1,6 +1,4 @@
-.container{
-    border: 2px solid black;
-}
+
 
 /* header>.top > .col-2 > select{
     margin-left: 170px;
@@ -66,9 +64,9 @@ header >.bottom{
     background-image: linear-gradient(white,#f4f4f2);
 } 
 
-header >.bottom > .col-2 > img{
+/* header >.bottom > .col-2 > img{
     margin-left: 47%;
-}
+} */
 
 header >.bottom > .col-md-10 >.nav {    
     margin-top: 5%;
@@ -99,9 +97,49 @@ header >.bottom > .col-md-10 > ul > li >a{
    
 }
 
+
+header >.bottom > .col-xs-3 > nav > button{
+    margin-top: 30px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+} 
+
+header >.bottom > .col-xs-3 > nav > button > span > i{
+    color: #d92032;
+    
+}
+
+header >.bottom > .col-xs-6 > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+       
+}
+
+header >.bottom > .col-xs-3 > i{
+    color: #d92032;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+header > .row > .col-md-12 > button{
+    color: grey;
+    background-color: white;
+    border: black 1px solid;
+}
 /* --------------------------------- Header > Bottom End --------------------------------- */
 
+/* --------------------------------- Section > Banner Start --------------------------------- */
 
+section > .banner > .row > .banner-img > img{
+    width:100%; 
+}
 
 
 
@@ -127,15 +165,55 @@ header >.bottom > .col-md-10 > ul > li >a{
         float: none;
         margin: 0;
     }
+
+    
     
 }/* sm */
 
 /* ------------  For Small Laptops ------------ */
 @media only screen and (min-width:992px) {    
-    
+    header >.top > .col-md-2 > select {
+        margin-left: 0px; 
+    }
+
+    header >.top > .col-md-2 > a {        
+        margin-left: 0px;
+    }
+
+    header >.top > .col-md-3 > button {
+        width: 103%;        
+        font-size: 14px;
+        margin-left: 0px;         
+    }
+
+    header >.bottom > .col-md-10 > ul {
+       margin-left: 5px;       
+    }
+
+    header >.bottom > .col-md-10 > ul > li {
+        margin-left: 26px;        
+    }
+
+    header >.bottom > .col-md-10 > ul > li >a {
+        font-size: 19px;        
+    }
+
+
+
 }/* md */
 
-/* ------------  For Small Laptops ------------ */
-@media only screen and (min-width:1200px) {    
+/* ------------  For large Laptops ------------ */
+@media only screen and (min-width:1200px) {  
+    header >.top > .col-md-3 > button {
+        width: 99%;
+        margin-left: 0px;
+    }
     
+    header >.bottom > .col-md-10 > ul > li {
+        margin-left: 45px;        
+    }
+
+    header >.bottom > .col-md-10 > ul > li >a {
+        font-size: 20px;        
+    }
 }/* lg */ 
