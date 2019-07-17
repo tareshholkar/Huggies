@@ -1,0 +1,415 @@
+
+
+/* header>.top > .col-2 > select{
+    margin-left: 170px;
+}
+
+header>.top > .col-2 > a{
+    margin-left: 70px;
+}
+
+header>.top > .col-2 > button{
+    margin-left: 70px;
+    border-radius: 30px;
+    width: 25%;
+} */
+
+/* --------------------------------- Header > Top Start --------------------------------- */
+header{
+    background-image: linear-gradient(white,#f4f4f2);
+}
+
+header > .container > .top{
+    background-color: white;
+}
+
+header > .container > .top > .col-md-2 {        
+    text-align: center;        
+}
+
+/* header > .top > .col-md-5 > img{
+    margin-left: 15%;
+} */
+
+header > .container >.top > .col-md-2 > select{
+    margin-left: 74px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666666;
+    font-family: "Omnes Medium";
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    margin-top: 10px;
+}
+
+header > .container >.top > .col-md-2 > a{
+    font-size: 15px;
+    line-height: 35px;
+    color: #666666;
+    font-family: "Omnes Medium";
+    font-weight: 500;
+    text-align: center;
+    margin-left: 57%;
+}
+
+header > .container >.top > .col-md-3 > button{    
+    border-radius: 30px;
+    width: 79%;
+    font-size: 15px;
+    line-height: 15px;
+    color: #ffffff;
+    font-family: "Omnes";
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 25%;
+    background-color: #d92032;
+}
+/* --------------------------------- Header > Top End --------------------------------- */
+/* --------------------------------- Header > Bottom Start --------------------------------- */
+
+header > .container >.bottom{
+    background-image: linear-gradient(white,#f4f4f2);
+} 
+
+/* header >.bottom > .col-2 > img{
+    margin-left: 47%;
+} */
+
+header > .container >.bottom > .col-md-10 >.nav {    
+    margin-top: 5%;
+    margin-left: 100px;
+}
+
+header > .container >.bottom > .col-md-10 > ul  {        
+    margin-left: 3px;
+    margin-top: 5%;
+}
+
+header > .container >.bottom > .col-md-10 > ul > i {    
+    margin-top: 16px;
+}
+
+header > .container >.bottom > .col-md-10 > ul > li{
+    margin-left: 38px;
+    list-style-type: none;
+
+}
+
+header > .container >.bottom > .col-md-10 > ul > li >a{    
+    font-size: 22px;
+    color: #d92032;    
+    font-weight: 500;
+    text-align: right;
+    text-decoration: none;
+   
+}
+
+
+header > .container >.bottom > .col-xs-3 > nav > button{
+    margin-top: 30px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+} 
+
+header > .container >.bottom > .col-xs-3 > nav > button > span > i{
+    color: #d92032;
+    
+}
+
+header > .container >.bottom > .col-xs-6 > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+       
+}
+
+header > .container >.bottom > .col-xs-3 > i{
+    color: #d92032;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+header >.head-bottom-row{
+    background-color: white;
+    box-shadow: 0 0 31px rgba(0,0,0,0.1);
+    
+}
+
+header >.head-bottom-row > .container > .row > .col-md-12{
+    background-color: white;
+}
+
+header >.head-bottom-row > .container > .row > .col-md-12 > button{
+    color: grey;
+    background-color: white;    
+    border-left: 1px solid #f3f3f3;
+    border-right: 1px solid #f3f3f3;
+    height: 53px;
+}
+/* --------------------------------- Header > Bottom End --------------------------------- */
+
+/* --------------------------------- Section > Banner Start --------------------------------- */
+
+section > .banner > .row > .banner-img{
+    padding-right: 1px;
+    padding-left: 0px;
+}
+
+section > .banner > .row > .banner-img > #myCarousel > .container-fluid > .row > .col-md-3 >ol >li {
+    position: absolute;
+    margin-top: 30%;
+}
+
+section > .banner > .row > .banner-img > #myCarousel > .container-fluid > .row > .col-md-3 > ol > li > span{
+    width: 10%;
+}
+
+section > .banner > .row > .banner-img > #myCarousel > .carousel-inner > .item > img{
+    width:100%; 
+    position: relative;
+   
+}
+
+section > .banner > .row > .banner-img > #myCarousel > .carousel-inner > .item > .over{
+    position: absolute;
+    left: 57%;
+    top: 31%;
+}
+
+section > .banner > .row > .banner-img > #myCarousel > .carousel-inner > .item > .over > h1{
+    font-size: 38px;
+    letter-spacing: 2px;
+    line-height: 38px;
+    color: #438413;
+   /*  font-family: "Omnes Light"; */
+    font-weight: 300;
+    text-align: center;
+}
+
+section > .banner > .row > .banner-img > #myCarousel > .carousel-inner > .item > .over > p{
+    font-size: 35px;
+    letter-spacing: 2px;
+    line-height: 38px;
+    color: #438413;
+    /* font-family: "Omnes Light"; */
+    font-weight: 300;
+    text-align: center;
+}
+
+section > .banner > .row > .banner-img > #myCarousel > .carousel-inner > .item > .over > button{
+    border-radius: 30px;
+    width: 50%;
+    font-size: 22px;
+    color: #ffffff;
+    margin-top: 8%;
+    letter-spacing: 3px;
+    margin-left: 25%;
+    background-color: #d92032;
+}
+
+/* ---------------------- Article Start ---------------------- */ 
+
+.sctn-clm{
+    background: url("../images/one/polka background.png");
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* section > .container > .row > .col-md-4 {
+    box-shadow: 0px 2px 9px rgba(0,0,0,0.22);
+} */
+
+article > .container > .row > .col-md-4 > img{
+    width: 357px;
+    height: 343px;
+    box-shadow: 0px -4px 19px rgba(0,0,0,0.22);
+    background-color: #ffffff;
+    /* padding: 20px; */
+    
+}
+
+article > .container > .row > .col-md-4 > .img-cap {
+    width: 356px;
+    height: 250px;
+    box-shadow: 0px 2px 9px rgba(0,0,0,0.22);
+    background-color: #ffffff;
+    text-align: center;
+}
+
+article > .container > .row > .col-md-4 > .img-cap >.para {
+    margin-top: 30px;
+}
+
+article > .container > .row > .col-md-4 > .img-cap > .cap-head{
+    font-size: 26px;
+    padding-top: 35px;
+    letter-spacing: 3px;
+    line-height: 34px;
+    color: #db0002;
+    /* font-family: "Omnes Huggies"; */
+    text-align: center;
+}
+
+article > .container > .row > .col-md-4 > .img-cap > .para > .cap{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #383838;
+   /*  font-family: "Omnes Huggies"; */
+    text-align: center;
+}
+
+article > .container > .row > .col-md-4 > .img-cap  > button{
+    
+    border-radius: 30px;
+    width: 53%;
+    letter-spacing: 3px;
+    font-size: 17px;
+    color: #ffffff;
+    margin-top: 8%;
+    /* margin-left: 25%; */
+    background-color: #d92032;
+}
+/* ---------------------- Article End ---------------------- */ 
+
+/* ---------------------- Aside Start ---------------------- */ 
+
+aside > .container-fluid > .row > .whole{
+    padding-right: 1px;
+    padding-left: 0px;
+}
+
+aside > .container-fluid > .row > .col-md-12 > .back-img > img{
+    width: 100%;
+    position: relative;
+}
+
+aside > .container-fluid > .row > .col-md-12 > .rgt-block{
+    position: absolute;
+    top: 18%;
+    left: 61%;
+}
+
+aside > .container-fluid > .row > .col-md-12 > .rgt-block > h1{
+
+    font-size: 56px;
+    letter-spacing: 6px;
+    line-height: 74px;
+    color: #db0002;
+   /*  font-family: "Omnes Huggies Light"; */
+    font-weight: 300;
+    text-align: center;
+}
+
+aside > .container-fluid > .row > .col-md-12 > .rgt-block > .block-para{
+    margin-top: 11%;
+}
+
+aside > .container-fluid > .row > .col-md-12 > .rgt-block > .block-para > p{   
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #383838;
+    /* font-family: "Omnes Huggies"; */
+    text-align: center;
+}
+
+aside > .container-fluid > .row > .col-md-12 > .rgt-block > .block-para > button{
+    border-radius: 30px;
+    width: 50%;
+    font-size: 22px;
+    color: #ffffff;
+    margin-top: 8%;
+    letter-spacing: 3px;
+    margin-left: 25%;
+    background-color: #d92032;
+}
+
+/* ---------------------- Aside End ---------------------- */
+
+/* -------------- Carousel Start --------------  */
+
+.carousel-indicators .active{
+    background-color: black;
+}
+
+.carousel-indicators li{
+    border: 1px solid grey;
+
+}
+
+/* -------------- Carousel End --------------  */
+
+/* --------------------------------- Media Queries Start --------------------------------- */
+
+/* ------------  For Mobile View ------------ */
+@media only screen and (max-width:768px) {    
+    
+}/* xs */ 
+
+/* ------------  For Tablet View ------------ */
+@media only screen and (min-width:768px) {    
+    
+    .navbar-nav {
+        float: none;
+        margin: 0;
+    }
+
+    
+    
+}/* sm */
+
+/* ------------  For Small Laptops ------------ */
+@media only screen and (min-width:992px) {    
+    header > .container  >.top > .col-md-2 > select {
+        margin-left: 0px; 
+    }
+
+    header > .container  >.top > .col-md-2 > a {        
+        margin-left: 0px;
+    }
+
+    header > .container  >.top > .col-md-3 > button {
+        width: 103%;        
+        font-size: 14px;
+        margin-left: 0px;         
+    }
+
+    header > .container >.bottom > .col-md-10 > ul {
+       margin-left: 5px;       
+    }
+
+    header > .container >.bottom > .col-md-10 > ul > li {
+        margin-left: 26px;        
+    }
+
+    header > .container >.bottom > .col-md-10 > ul > li >a {
+        font-size: 19px;        
+    }
+
+
+
+}/* md */
+
+/* ------------  For large Laptops ------------ */
+@media only screen and (min-width:1200px) {  
+    header > .container >.top > .col-md-3 > button {
+        width: 99%;
+        margin-left: 0px;
+    }
+    
+    header > .container >.bottom > .col-md-10 > ul > li {
+        margin-left: 45px;        
+    }
+
+    header > .container >.bottom > .col-md-10 > ul > li >a {
+        font-size: 20px;        
+    }
+}/* lg */ 
